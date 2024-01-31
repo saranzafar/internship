@@ -28,6 +28,11 @@ const loginSchema = new mongoose.Schema({
         default: false,
         required: false
     },
+    otp: {
+        type: Number,
+        default: false,
+        required: true
+    },
 });
 
 

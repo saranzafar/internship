@@ -1,6 +1,76 @@
-.right-box{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.nav-item {
+    color: var(--bs-main-color) !important;
+}
+
+.box-area {
+    width: 930px;
+}
+
+.login-para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.login-small {
+    font-family: 'Courier New', Courier, monospace;
+    width: 17rem;
+}
+
+.sighnup-btn img {
+    width: 20px;
+}
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+@media only screen and (max-width:768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    right-box {
+        padding: 20px;
+    }
+}
+
+.otp-container {
+    display: flex;
+    gap: 10px;
+}
+
+.otp-container input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.right-box {
     padding: 2rem;
 }
-.input-group img{
+
+.input-group img {
     width: 1.5rem;
 }
